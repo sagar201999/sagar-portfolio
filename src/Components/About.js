@@ -6,7 +6,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 
-
 const About = () => {
 
     useEffect(() => {
@@ -22,10 +21,10 @@ const About = () => {
                 <div className='about-container' >
                     <div className='about-me'>
 
-                        <div className='about-first' data-aos="fade-right">
+                        <div className='about-first' data-aos="zoom-in">
                             <img src='../../Images/aboutPic.png' alt='about' />
                         </div>
-                        <div className='about-second' data-aos="fade-left">
+                        <div className='about-second' data-aos="zoom-in">
                             <h3 className='Tiffany-Blue'>About me</h3>
                             <p>Passionate Front-End Developer with a
                                 strong foundation in HTML and CSS .

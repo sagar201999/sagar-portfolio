@@ -6,27 +6,27 @@ import { faEnvelope, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-i
 const Contact = () => {
     return (
         <>
-            <div id='contact'>
+            <section id='contact'>
                 <div className='contact-info'>
-                    <div className='d-flex contact-container'>
+                    <div className='d-flex align-items-center contact-container'>
                         <FontAwesomeIcon className='contact-icon' icon={faPaperPlane} />
                         <div className='contact-text'>
                             <h6>Adress</h6>
-                            <p>Sanjaynagar , Aurangabad</p>
+                            <p className='pb-0'>Sanjaynagar , Aurangabad</p>
                         </div>
                     </div>
-                    <div className='d-flex contact-container'>
+                    <div className='d-flex align-items-center contact-container'>
                         <FontAwesomeIcon className='contact-icon' icon={faEnvelope} />
                         <div className='contact-text'>
-                            <h6>Adress</h6>
-                            <p>Sanjaynagar , Aurangabad</p>
+                            <h6>Email</h6>
+                            <p className='pb-0'>smagare1111@gmail.com</p>
                         </div>
                     </div>
-                    <div className='d-flex contact-container'>
+                    <div className='d-flex align-items-center contact-container'>
                         <FontAwesomeIcon className='contact-icon' icon={faPhone} />
                         <div className='contact-text'>
-                            <h6>Adress</h6>
-                            <p>Sanjaynagar , Aurangabad</p>
+                            <h6>Contact Number</h6>
+                            <p className='pb-0'>+91 - 8669075818</p>
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                     </form>
 
                 </div>
-            </div>
+            </section>
 
         </>
     )

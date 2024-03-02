@@ -5,7 +5,9 @@ import Blogs from './Components/Blogs';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import Work from './Components/Work';
+// import Cursor from './Components/Cursor';
+import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,10 +15,12 @@ function App() {
       <div className="App">
         <Navbar />
         <Home />
+        <Projects />
         <About />
-        <Work />
         <Blogs />
         <Contact />
+        <Footer />
+        {/* <Cursor /> */}
       </div>
     </ParallaxProvider>
 

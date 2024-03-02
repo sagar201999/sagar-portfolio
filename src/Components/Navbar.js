@@ -42,7 +42,7 @@ const Navbar = () => {
                 animate={{ y: 0 , opacity: 1 }}
                 transition={{delay: 1.5 , duration: 2}}>
                 <div className="container">
-                    <a className="navbar-brand " href="/">SAGAR <span className='Tiffany-Blue'>MAGARE</span></a>
+                    <a className="navbar-brand fw-bold" href="/">SAGAR <span className='skyBlue fw-bold'>MAGARE</span></a>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -60,11 +60,12 @@ const Navbar = () => {
                                 <a className="nav-link mx-3" href="#home">HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-3" href="#about">ABOUT</a>
+                                <a className="nav-link mx-3" href="#projects">PROJECTS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-3" href="#work">WORK</a>
+                                <a className="nav-link mx-3" href="#about">ABOUT</a>
                             </li>
+                           
                             <li className="nav-item">
                                 <a className="nav-link mx-3" href="#blogs">BLOGS</a>
                             </li>
